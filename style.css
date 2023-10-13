@@ -1,0 +1,112 @@
+html
+{
+  color: rgb(156, 181, 203);   
+}
+
+.center 
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body
+{
+  background-color: rgb(27, 32, 41);
+  font-family: "Marker Felt", fantasy;
+  text-align: center;
+}
+
+nav 
+{
+  height: 60px;
+  vertical-align: middle;
+  color: rgb(236, 60, 60); 
+  background-color: rgb(210, 210, 218);
+  display: flex;
+  margin-bottom: 5px;
+}
+
+nav ul 
+{
+  flex: 3;
+  display: flex;
+}
+  
+nav li 
+{
+  flex: 1;
+  text-align: center;
+  display: inline;
+}
+
+nav a 
+{
+  font-size: 2rem;
+  display: inline-block;
+}
+h1 
+{
+  font-size: 5rem;
+  text-shadow: 2px 2px 10px ;
+}
+  
+h2, h4
+{
+  font-size: 2rem;
+  color: rgb(49, 71, 111);
+  background-color: rgb(96, 110, 124);
+}
+
+h3
+{
+  font-size: 2rem;
+  color: rgb(154, 27, 27);
+  background-color: rgb(10, 18, 42);
+}
+
+iframe 
+{
+  display: block;
+}
+  
+iframe 
+{
+  display: block;
+  border-style:none;
+}
+  
+footer 
+{
+  margin-top: 12.5px;
+  text-align: left;
+  padding: 1%;
+}
+  
+.bowling1
+{
+  width: 600px;
+  height: 400px
+}
+.bowling2
+{
+  width: 500px;
+  height: 350px
+}
+.nmh
+{
+  width: 875px;
+  height: 475px
+}
+
+table
+{
+  color:rgb(10, 18, 42);
+  background-color: cornflowerblue;
+}
+form input[type="submit"] 
+{
+  font-family: "Marker Felt", fantasy;
+  color: rgb(156, 181, 203);   
+  background-color: #507832;
+  cursor: pointer;
+}
